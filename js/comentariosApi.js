@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function(){
                           <div class="d-flex flex-column text-start ms-4">
                               <h3><strong>${nombre.first}</strong></h3>
                               <h4><strong>${nombre.last}</strong></h4>
-                              <p>${Frases[numAleatorio]}</p>
+                              <p class="cajaComentariosClientes" >" ${Frases[numAleatorio]} "</p>
                           </div>
                       </div>
                       

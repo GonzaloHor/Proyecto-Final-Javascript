@@ -294,6 +294,7 @@ p {
 }
 
 .cajasCoti{
+  box-shadow: -11px 10px 13px 0px rgba(0,0,0,0.75);
   background: #EFC3F5;
   color: #000;
   font-size: 20px;
@@ -388,6 +389,11 @@ p {
   margin-top: 60px;
 }
 
+
+.cajaComentariosClientes{
+  font-size: 15px;
+  font-weight: lighter;
+}
 /* Estilos Footer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 .logodosRedes {
   width: 60px;
@@ -401,6 +407,10 @@ footer {
   text-align: center;
   vertical-align: center;
   background: #EFC3F5; }
+
+footer p{
+  font-size: 15px;
+}
   
 
 .logodosRedesdos {

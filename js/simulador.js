@@ -43,7 +43,7 @@ function realizarCotización(event) {
         <div class="card-body">
         <h5 class="card-title cajasDentro"><strong>Reposabilidad Civil</strong></h5>
         <h5 class="card-title">Precio del seguro : $ ${vehicleAswer.precio}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Cobertura Basica</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Cobertura Básica</h6>
         <p class="card-text">Una cobertura básica para que puedas circular</p>
         </div>`;
     
