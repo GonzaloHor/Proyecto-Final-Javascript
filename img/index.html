@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <link rel="shortcut icon" href="img/life-insurance.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>GH Tech - Seguros y Asistencias</title>
+</head>
+<body>
+   <header>
+    <!-- Menu de navegación -->
+    <div class="headerBoots header" id="wrap">
+            <a href="index.html"><img src="img/life-insurance.png" alt="Logo" class="headerBoots__logo" width="50px"></a> 
+            <nav>
+                <ul class="hipervinculos hipervinculosBoots">
+                    <a href="#" class="hipervinculos__linksMenu"><li>Inicio</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <!-- Cuerpo de la pagina -->
+    <main>
+    
+        <section class="seccionInicio">
+            <h1 class="tituloModificado">El mejor seguro para vos y tu auto</h1>
+            <img src="img/jamie-street-JtP_Dqtz6D8-unsplash.jpg" alt="" class="imgInicio">
+        </section>
+
+       
+        <a href="#cotizar" class="btn btn-primary btn-cotizar">Cotizar ahora</a>
+
+        <section class="seccionesMain">
+            <h2 class="titulosSecciones">Conectamos con nuestros clientes</h2>
+            <div  class="seccionesMain__primerSection">
+                <img src="img/trabajo-en-equipo.png" alt="Cliente" class="imagenesMail">
+                <p>
+                    Conectar con los clientes a nivel personal implica cambiar la manera en que los concibes de, aquellos con quienes se hace una mera transacción comercial a ver personas con las que es posible hacer vínculos emocionales.</p>
+            </div>
+        </section>
+
+        <section class="seccionesMain">
+            <h2 class="titulosSecciones">Un seguro 100% autogestionable</h2>
+            <div class="seccionesMain__segundaSection">
+                <p>La tecnología digital no solo simplifica el funcionamiento de las personas, sino que también aumenta la colaboración dentro de un equipo y permite a los empleadores obtener información confiable para tomar las decisiones correctas.</p>
+                <img src="img/aplicacion-movil.png" alt="Tecnología" class="imagenesMail imagenCelular">
+            </div>
+        </section>
+
+        <section class="seccionesMain">
+            <h2 class="titulosSecciones">Te conectamos al mundo</h2>
+            <div class="seccionesMain__primerSection">
+                <img src="img/technology.png" alt="Futuro" class="imagenesMail">
+                <p>La tecnología digital está transformando casi todos los dominios en los negocios. Muchas empresas ya se han beneficiado con el uso de estas tecnologías y han mejorado la eficiencia, la productividad y las perspectivas de crecimiento.</p>
+            </div>
+        </section>
+        
+        
+        
+        <section class="formulario container d-blex"> 
+
+                <div class="fomulario__cajaformulario" id="cotizar">
+                    
+                    <h2 class="cajaformulario__tituloForm">Cotizar auto</h2>
+                    <form action="#" class=" container">
+                        
+                            <div class="row">
+
+                        
+                                    <div class="col-12">
+                                        <label for="model" class="form-label mt-3">Marca del auto</label>
+                                        <select name="model" id="model" class="modeloAuto form-select">
+                                            <option value="Renault">Renault</option>
+                                            <option value="Fiat">Fiat</option>
+                                            <option value="Peugeot">Peugeot</option>
+                                            <option value="Volkswagen">Volkswagen</option>
+                                            </select>
+                                    </div>
+                                
+                                
+                                    <div class="col-6">
+
+                                        <label for="age" class="form-label mt-3">Año del Vehículo</label>
+                                        <input type="text" name="age" id="age" class="form-control">
+                                        
+                                    </div>
+                            
+                                    <div class="col-1"></div>
+                            
+                                    <div class="col-5">
+
+                                        <label for="Km" class="form-label mt-3">Kilometraje</label>
+                                        <input type="tel" name="Km" id="km" class="form-control">
+
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="residenceZone" class="form-label mt-3">Zona de Residencia</label>
+                                        <input type="text" name="residenceZone" id="residenceZone" class="form-control">
+                                    </div>
+        
+                            
+                                    <div class="col-12">
+                                        <button class="botonesForm btn" id="btncotizar">Cotizar</button>
+                                    </div>
+                    
+                    
+                    </div>
+                    <div>
+
+                  
+                </form>
+
+            </div>
+        </section>
+
+        <div class="spinner">
+            <div class="spinner-item"></div>
+        </div>
+        <div class="" id="preloader"></div>
+        <div id="cajaCotizaciones"  class="container-fluid d-blex cajaCotizaciones" >
+        </div>
+
+    </main>
+    
+    
+    <!-- Pie de pagina -->
+        <footer class="mt-4">
+            <p class="tituloFooter">Siguenos en nuestras redes</p>
+            <a href="#"><img src="img/Redes/facebook.png" alt="logoFacebook" class="logodosRedes"></a>
+            <a href="#"><img src="img/Redes/linkedin.png" alt="logoFacebook" class="logodosRedes"></a>
+            <a href="#"><img src="img/Redes/logotipo-de-instagram.png" alt="logoFacebook" class="logodosRedes"></a>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="js/simulador.js" ></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+
+</body>
+</html> 
