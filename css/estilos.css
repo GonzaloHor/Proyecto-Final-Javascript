@@ -172,14 +172,8 @@ h2 {
 .seccionesMain {
   padding-top: 50px; }
 
-.seccionesMain .primerCaja:hover ~ .seccionesMain__primerSection {
-  width: 500px
-  
- }
 
- .seccionesMain__primerSection:hover > img { 
-   
- }
+
 
 .seccionesMain__primerSection {
   display: flex;
@@ -394,6 +388,22 @@ p {
   font-size: 15px;
   font-weight: lighter;
 }
+
+
+.añoError{
+  background: rgb(211, 82, 82);
+}
+
+
+
+
+
+.warningAge{
+ display: none;
+}
+
+
+
 /* Estilos Footer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 .logodosRedes {
   width: 60px;
@@ -419,3 +429,6 @@ footer p{
   padding: 10px; }
 
 /* Animaciones xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+

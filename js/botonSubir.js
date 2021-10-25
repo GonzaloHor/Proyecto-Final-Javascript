@@ -14,4 +14,53 @@ $(document).ready(function(){
 		}
 	});
 
+	$("#warningAge").addClass("warningAge");
+	$("#warningKm").addClass("warningAge");
+
+	$("#age").change(function(){
+
+		if($("#age").val()  > 1995 && $("#age").val() <= 2022){
+			$("#age").removeClass("añoError");
+			$("#warningAge").addClass("warningAge");
+			$("#btncotizar").removeAttr('disabled','disabled')
+		
+		} else {
+			$("#age").addClass("añoError");
+			$("#warningAge").removeClass("warningAge");
+			$("#btncotizar").attr('disabled','disabled');
+		
+
+		}
+
+
+	
+
+
+
+	});
+
+	
+		$("#km").change(function(){
+
+			if(isNaN($("#km").val())){
+				$("#km").addClass("añoError");
+				console.log("Mal Km")
+				$("#btncotizar").attr('disabled','disabled');
+				$("#warningKm").removeClass("warningAge");
+			} else {
+				console.log("Bien Km");
+				$("#km").removeClass("añoError");
+				$("#btncotizar").removeAttr('disabled','disabled')
+				$("#warningKm").addClass("warningAge");
+
+
+		
+			}
+
+
+
+		});
+
+
+
 });

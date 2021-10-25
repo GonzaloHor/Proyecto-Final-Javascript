@@ -32,7 +32,7 @@
             <a href="index.html"><img src="img/life-insurance.png" alt="Logo" class="headerBoots__logo" width="50px"></a> 
             <nav>
                 <ul class="hipervinculos hipervinculosBootsd-blex">
-                    <a href="#" class="hipervinculos__linksMenu"><li>Comentarios</li></a>
+                    <a href="#cajaComentarios" class="hipervinculos__linksMenu"><li>Comentarios</li></a>
                 </ul>
             </nav>
         </div>
@@ -105,9 +105,14 @@
                                     <div class="col-6">
 
                                         <label for="age" class="form-label mt-3 labels">Año del Vehículo</label>
-                                        <input type="text" name="age" id="age" class="form-control modeloAuto cajaSelectores">
-                                        
-                                    </div>
+                                        <input type="text" name="age" id="age" class="form-control modeloAuto cajaSelectores ">
+                                        <div class="alert alert-warning warningAgeposition" role="alert" id="warningAge">
+                                        <strong> Solo tenemos seguro para vehículos del 1998 al 2022</strong>
+                                        </div>
+
+
+                                   
+                                        </div>
                             
                                     <div class="col-1"></div>
                             
@@ -115,6 +120,9 @@
 
                                         <label for="Km" class="form-label mt-3 labels">Kilometraje</label>
                                         <input type="tel" name="Km" id="km" class="form-control modeloAuto cajaSelectores">
+                                        <div class="alert alert-warning warningAgepositionkm" role="alert" id="warningKm">
+                                            <strong> EL kilometraje solo tiene que estar en numeros</strong>
+                                            </div>
 
                                     </div>
 
@@ -246,11 +254,14 @@
             </div>
         </div>
 
-
-        <div class="d-flex container-fluid  row pb-4 comentariosClientes" >
+        
+        <div class="d-flex container-fluid  row pb-4 comentariosClientes" id="">
             <div class="col-12">
                    <h3> Comentarios de clientes</h3>    
                </div>
+
+
+
 
             <div class="row justify-content-center col-12 mt-4" id="cajaComentarios">
             </div>
