@@ -1,4 +1,10 @@
 @charset "UTF-8";
+*{
+  padding: 0px;
+  margin: Opx;
+}
+
+
 body {
   font-family: Questrial;
   padding: 0px;
@@ -428,7 +434,109 @@ footer p{
   height: 40px;
   padding: 10px; }
 
-/* Animaciones xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+  
 
 
 
+  @media (max-width: 700px) {
+    .tituloModificado{
+      font-size:40px;
+      left: 15px;
+    }
+    .hipervinculos {
+      display: inline-block;
+      width: 100px; 
+    }
+    .btn-cotizar{
+      top: 85vh;
+    }
+    .imgInicio{
+      width: 200px;
+      height: 200px;
+    }
+
+    .seccionesMain__primerSection{
+      display: flex;
+      flex: start;
+      flex-direction: column;
+    }
+
+    .seccionesMain__segundaSection{
+      display: flex;
+      flex: start;
+      flex-direction: column;
+    }
+    .imagenesMail{
+      width: 90%;
+      margin-bottom: 10px;
+    }
+    .imagenesMail2{
+      width: 90%;
+      margin-bottom: 10px;
+    }
+    .textSeccions{
+      font-size: 15px;
+      width: 80%;
+      text-align: start;
+    }
+
+
+   .cajaComentariosClientes{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+  .cajaComentariosClientes p{
+  font-size: 13px;
+
+ }
+  .cajaComentario{
+   margin-bottom: 15px;
+  }
+  }
+
+
+  @media (max-width: 520px) {
+    .cajaComentariosClientes{
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+    }
+    .botonesConocer{
+      font-size: 15px;
+    }
+    .imgCliente{
+      width: 90px;
+    }
+    .nombreCliente{
+      font-size: 15px;
+    }
+    footer{
+      margin-top: 10px;
+      font-size: 10px;
+    }
+    .logodosRedes{
+      width: 50px;
+      height: 50px;
+    }
+    .titulosSecciones{
+      font-size: 25px;
+      margin-top: 50px;
+    }
+    .labels{
+      font-size: 15px;
+    }
+    .seccionesMain__primerSection p {
+      width: 350px;
+      margin: 50px;
+       }
+    .seccionesMain__segundaSection p {
+      width: 350px;
+      margin: 50px;
+      }
+    
+    
+    .titulosSeccionesMovile{
+      margin-bottom: 0px;
+    }
+  }
