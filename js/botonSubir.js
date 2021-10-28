@@ -44,23 +44,12 @@ $(document).ready(function(){
 
 			if(isNaN($("#km").val())){
 				$("#km").addClass("añoError");
-				console.log("Mal Km")
 				$("#btncotizar").attr('disabled','disabled');
 				$("#warningKm").removeClass("warningAge");
 			} else {
-				console.log("Bien Km");
 				$("#km").removeClass("añoError");
 				$("#btncotizar").removeAttr('disabled','disabled')
 				$("#warningKm").addClass("warningAge");
-
-
-		
 			}
-
-
-
 		});
-
-
-
 });

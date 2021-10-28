@@ -7,7 +7,7 @@ function realizarCotización(event) {
     event.preventDefault();
 
     cotizadorDeAuto();
-
+    
 
 
 
@@ -21,7 +21,7 @@ function realizarCotización(event) {
     } else {
 
 
-
+        $("#cajaCotizaciones").empty();
         let carga = $("#preloader");
 
         for(i = 0; i < 1000;i++){
@@ -32,6 +32,7 @@ function realizarCotización(event) {
         setTimeout(function() {
             
         carga.removeClass("preloader");
+        
         
         let vehicleAswer =  JSON.parse(localStorage.vehicleAswer);
     
